@@ -7,11 +7,12 @@ For test only
 
 BlaBla
 
-# Title 2
+## Title 2
 
 Blabla
 
-- [ ] A faire
-- [ ] A faire
-- [ ] A faire
-- [x] Fait !
+* [ ] a task list item
+* [ ] list syntax required
+* [ ] normal **formatting**, @mentions, #1234 refs
+* [ ] incomplete
+* [x] completed
