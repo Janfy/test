@@ -1,0 +1,5 @@
+First of all, make sure that you have a working Play installation. You only need Java (version 6 minimum), and to unzip the Play binary package to start; everything is included.
+
+As we will use the command line a lot, it’s better to use a Unix-like OS. If you run a Windows system, it will also work fine; you’ll just have to type a few commands in the command prompt.
+
+You will of course need a text editor. If you are used-to a fully-featured Java IDE, such as Eclipse or IntelliJ, you can of course use it. However, with Play you can have fun working with a simple text editor like TextMate, Emacs or vi. This is because the framework manages compilation and the deployment process itself.
