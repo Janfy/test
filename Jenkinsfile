@@ -15,6 +15,10 @@ pipeline {
           },
           "Stage 2": {
             echo 'Stage 2'
+            timeout(time: 1, unit: 'HOURS') {
+              sleep 30
+            }
+            
             
           },
           "Stage 3": {
@@ -29,5 +33,8 @@ pipeline {
         echo 'Stage 4'
       }
     }
+  }
+  environment {
+    JENKINS = '1'
   }
 }
